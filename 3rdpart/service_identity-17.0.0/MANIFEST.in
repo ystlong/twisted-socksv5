@@ -1,0 +1,6 @@
+include LICENSE .coveragerc .travis.yml tox.ini
+include docs/Makefile docs/conf.py
+include *.rst *.txt
+exclude conftest.py
+recursive-include docs *.rst
+prune tests
